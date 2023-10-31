@@ -1,0 +1,27 @@
+footer{
+    background-color:  #0b026d;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap :20px;
+}
+
+li{
+    margin-right: 20px;
+}
+
+.footer-content {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
