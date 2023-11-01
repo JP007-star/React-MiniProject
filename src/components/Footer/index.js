@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import { NavLink } from 'react-bootstrap'
 export default function Footer() {
   return (
     <>
@@ -7,8 +8,8 @@ export default function Footer() {
          <div className='footer-content'>
             <p>&copy; 2023 Your Name</p>
             <ul>
-                <li><Link to="tel://9080059962">Contact Us</Link></li>
-                <li><Link to="#">Terms & Condition</Link></li>
+                <li><NavLink to="tel://9080059962">Contact Us</NavLink></li>
+                <li><NavLink to="#">Terms & Condition</NavLink></li>
 
             </ul>
          </div>
