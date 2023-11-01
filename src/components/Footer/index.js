@@ -7,8 +7,8 @@ export default function Footer() {
          <div className='footer-content'>
             <p>&copy; 2023 Your Name</p>
             <ul>
-                <li><a href="tel://9080059962"></a>Contact Us</li>
-                <li><a href="#"></a>Terms & Condition</li>
+                <li><Link to="tel://9080059962">Contact Us</Link></li>
+                <li><Link to="#">Terms & Condition</Link></li>
 
             </ul>
          </div>
